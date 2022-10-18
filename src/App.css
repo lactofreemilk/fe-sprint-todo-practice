@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.display-wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  background-color: blanchedalmond;
 }
 
-.App-link {
-  color: #61dafb;
+.display-box {
+  display: flex;
+  align-items: flex-start;
+  border: none;
+  border-bottom: 1px solid rgba(158, 178, 228, 0.5);
+  
+  width: 512px;
+  height: 768px;
+
+  position: relative; 
+  background: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  display: flex;
+  font-size: 40px;
+  margin: 10px;
+  border: 0px;
+}
+
+.input {
+  display: flex;
+  padding: 1%;
+  align-items: center;
+
+}
+
+.textbox {
+  width:360px;
+  height:30px;
+  font-size:20px;
+}
+
+.addbutton {
+  display:flex;
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  margin-left: 20px;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.refbutton {
+  display:flex;
+  width: 60px;
+  height:40px;
+  border-radius: 5%;
+  margin-left: 20px;
+  align-items: center;
+  font-weight: bolder;
+  justify-content: center;
+}
+
+table {
+  width: 512px;
+}
+
+tr {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5%;
+  padding: 2%;
+  align-items: center;
+}
+
+.doneBox{
+  width:20px;
+  height:20px;
+}
+
+.todoBox {
+  width:400px;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 800;
+  
+}
+
+.deleteButton {
+  width:30px;
+  height:30px;
+  font-size:20px;
+  font-weight:bolder;
 }

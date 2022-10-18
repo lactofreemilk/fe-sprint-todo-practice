@@ -1,3 +1,15 @@
+작동예시
+
+
+![221018_todolist](https://user-images.githubusercontent.com/107447964/196416241-8a4fab00-6f8d-4a5a-acc2-5ef005fd26e8.gif)
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
